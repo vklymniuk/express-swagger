@@ -50,7 +50,7 @@ swagger: "2.0"
 info:
   description: ""
   version: "1.0"
-  title: DreamTeam Token Provider Payment Service
+  title: ManageTeam Token Provider Payment Service
 consumes:
   - application/json
 produces:
@@ -67,4 +67,4 @@ See [Ethereum Gateway service](http://gitlab-service.manageteam.ec2-internal/blo
 License
 -------
 
-[MIT](LICENSE) (c) [Valdimir Klymniuk
+[MIT](LICENSE) (c) [Valdimir Klymniuk <Vladimir.Klymniuk@gmail.com>]

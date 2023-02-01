@@ -1,0 +1,41 @@
+{
+  "name": "express-swagger",
+  "version": "0.0.1",
+  "description": "Complete express middleware for ManageTeam JavaScript services",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "src/index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vklymniuk/express-swagger.git"
+  },
+  "keywords": [
+    "express",
+    "swagger",
+    "middleware",
+    "ui",
+    "manageteam",
+    "yaml"
+  ],
+  "author": "Vladimir Klymniuk <Vladimir.Klymniuk@gmail.com>",
+  "license": "MIT-advertising",
+  "bugs": {
+    "url": "https://github.com/vklymniuk/express-swagger/issues"
+  },
+  "homepage": "https://github.com/vklymniuk/express-swagger#readme",
+  "dependencies": {
+    "swagger-express-middleware": "^4.0.2",
+    "swagger-ui-express": "^4.6.0",
+    "tmp": "^0.2.1",
+    "walk-sync": "^3.0.0",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "semantic-release": "^20.1.0",
+    "@vklymniuk/semantic-release-config": "^0.0.1"
+  }
+}
